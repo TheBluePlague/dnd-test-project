@@ -1,6 +1,6 @@
-body {
-    background-image: url('../images/parchment.jpg');
-    background-repeat: no-repeat;
+#test {
+    background-image: url('../images/Enevell_2.jpg');
+    background-repeat: repeat;
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
@@ -13,7 +13,7 @@ body {
     border: 2px solid black;
     border-radius: 10px;
     float: right;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 .Izzler_tag {
     font-size: 12px;
@@ -46,4 +46,38 @@ p {
     border-radius: 10px;
     float: right;
     margin-left: 15px;
+}
+
+
+body {
+    background-image: url('../images/Enevell_2.jpg'), linear-gradient(rgba(0, 0, 0, 0.7));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    margin-top: 200px;
+    margin-bottom: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 0;
+    font-family: 'metamorphous', serif;
+}
+
+#main {
+    background-image: url('../images/parchment.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #a46534;
+    box-sizing: content-box;
+    max-width: 100%;
+}
+.skipper_image_tag {
+    float: right;
+    text-align: right;
+    
 }
