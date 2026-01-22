@@ -1,0 +1,49 @@
+body {
+    background-image: url('../images/parchment.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+
+.Skipper {
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    float: right;
+    margin-left: 15px;
+}
+.Izzler_tag {
+    font-size: 12px;
+    font-style: italic;
+    text-align: right;
+    margin-right: 20px;
+    position: relative;
+}
+footer {
+    text-align: center;
+    font-size: 10px;
+    color: #2e1e02;
+    margin: 20px;
+    font-style: italic;
+    
+}
+p {
+    font-family: 'metamorphous', serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #2e1e02;
+    margin: 20px;
+    font-style: italic;
+}
+
+.Enevell_map {
+    width: 400px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    float: right;
+    margin-left: 15px;
+}
